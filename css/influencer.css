@@ -27,23 +27,39 @@ ul {
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 500px;
+  gap: 400px;
   margin-top: 80px;
-  margin-left: 100px;
+  margin-left: 80px;
   margin-right: 80px;
 }
 .img-influencer {
-  width: 490px;
-  height: 464px;
+  width: 450px;
+  height: 400px;
   left: 835px;
   top: 211px;
 }
-.img-influencer,
+
 .background {
-  background-image: url("/all-image/background.png");
-  background-repeat: no-repeat;
-  background-size: 440px;
+  width: 350px;
+  height: 350px;
+  right: 200px;
+  top: 250px;
+  animation: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: fixed;
+  z-index: -1;
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .heading-style {
   font-size: 50px;
   color: rgb(51, 49, 49);
