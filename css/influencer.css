@@ -12,14 +12,11 @@ body {
 }
 ul {
   list-style-type: none;
-  
 }
 .nav li {
   display: inline-block;
   margin-top: 80px;
   margin-right: 100px;
- 
-  
 }
 .nav li a {
   text-decoration: none;
@@ -49,7 +46,7 @@ ul {
   height: 500px;
   right: 100px;
   top: 210px;
-  z-index: -1; 
+  z-index: -1;
 }
 .heading-style {
   font-size: 50px;
@@ -80,27 +77,50 @@ p {
   font-size: 24px;
   font-weight: bold;
 }
-hr{background: linear-gradient(to right, white, lightgray, white);
-   height: 4px;
-   margin:30px 150px;}
-.product-heading>h2{margin-top:100px;
-         margin-bottom:50px;
-         text-align:center;
-         color:rgb(51, 49, 49);}
- .logo{display: flex;
-      justify-content: space-around;
-      margin-left:150px;
-      margin-right:150px;} 
-span{margin-left:15px;
-  color: rgb(51, 49, 49);}
-.fa-star.gold{color:goldenrod;}
-.fa-star-half-alt.half-gold{color:gold;}
-.awesome-product{display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 40px;}
-.container-product{background-color: lightgrey;
+hr {
+  background: linear-gradient(to right, white, lightgray, white);
+  height: 4px;
+  margin: 30px 150px;
+}
+.product-heading > h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(51, 49, 49);
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+span {
+  margin-left: 15px;
+  color: rgb(51, 49, 49);
+}
+.fa-star.gold {
+  color: gold;
+}
+.fa-star-half-alt.half-gold {
+  color: gold;
+}
+.awesome-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: center;
+  width:400px; 
+  margin:auto;
+}
+.product-review {
+  background-color: white;
+  padding: 10px;
+  width:300px;
+ }
+.container-product{background-color: rgba(241, 235, 235, 0.432);
                    padding:10px;
-                   border-radius: 5px;}
-.product-review{background-color: black;
-                padding:10px;
-                border-radius: 5px;}
+                   border-radius:5px;
+                   margin-left:220px;
+                   margin-right:220px;
+                   box-shadow: 0 0 5px 5px rgba(21, 52, 226, 0.144);}
+
