@@ -83,7 +83,24 @@ p {
 hr{background: linear-gradient(to right, white, lightgray, white);
    height: 4px;
    margin:30px 150px;}
-.logo{display: flex;
-      justify-content: center;
-      align-items: center;}
-.logo img{padding-right: 50px;}
+.product-heading>h2{margin-top:100px;
+         margin-bottom:50px;
+         text-align:center;
+         color:rgb(51, 49, 49);}
+ .logo{display: flex;
+      justify-content: space-around;
+      margin-left:150px;
+      margin-right:150px;} 
+span{margin-left:15px;
+  color: rgb(51, 49, 49);}
+.fa-star.gold{color:goldenrod;}
+.fa-star-half-alt.half-gold{color:gold;}
+.awesome-product{display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;}
+.container-product{background-color: lightgrey;
+                   padding:10px;
+                   border-radius: 5px;}
+.product-review{background-color: black;
+                padding:10px;
+                border-radius: 5px;}
