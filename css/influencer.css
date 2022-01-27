@@ -142,6 +142,18 @@ span {
               }
 .product-information{font-size:16px;
                      }
+.footer-style{color:rgb(51, 49, 49);
+              text-align:center;
+              line-height: 5px;
+              vertical-align: middle;}
+footer{ background-color: #aaaaaa5b;
+        padding:10px;}
+             
+.social-icon{display:flex;
+             justify-content: center;}
 
+.social-icon-style{
+                   font-size:30px;
+                   color:rgba(0, 3, 17, 0.637);}
                
               
